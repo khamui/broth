@@ -1,0 +1,11 @@
+<template>
+  <require from="./app.css"></require>
+  <require from="./modules/step"></require>
+  <div class="container" repeat.for="step of steps">
+    <step
+      step-number.bind="step.number"
+      step-text.bind="step.text"
+      step-text-done.bind="step.textDone"
+    ></step>
+  </div>
+</template>

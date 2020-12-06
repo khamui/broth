@@ -1,0 +1,16 @@
+<template>
+  <require from="./step.css"></require>
+  <div class="step__container" click.delegate="toggleDone()">
+    <div class.bind="done ? 'step__number done' : 'step__number'">
+      ${stepNumber}
+    </div>
+    <div class="step__text">
+      <span class.bind="done ? 'crossedout' : ''"> 
+        ${stepText}
+      </span>
+      <span class.bind="done ? 'step__text--done show' : 'step__text--done'">
+        ${stepTextDone}
+      </span>
+    <div>
+  <div>
+</template>
