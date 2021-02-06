@@ -3,6 +3,7 @@
   padding: 1rem;
   cursor: pointer;
   user-select: none;
+  max-width: 40rem;
 }
 .step__number {
   font-size: 4rem;
@@ -19,14 +20,16 @@
 
 .step__text--done {
   margin-top: .5rem;
+  margin-bottom: 1.5rem;
   color: #04A090;
   opacity: 0;
   transition: opacity .4s;
+  text-align: right;
 }
 
 .show {
   opacity: 1;
-} 
+}
 
 .crossedout {
   text-decoration: line-through;
@@ -34,4 +37,27 @@
 
 .done {
   color: #04A090;
+}
+
+.step__img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+img.step__img {
+  margin: 1rem;
+  width: 40%;
+  transition: transform .4s;
+  border: 4px solid transparent;
+}
+
+img.done {
+  border: 4px solid #04A090;
+}
+
+img[data-inactive=true] {
+  filter: blur(2px) grayscale(80%);
+  transform: scale(.95);
+  border: 4px solid transparent;
 }

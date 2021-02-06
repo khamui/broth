@@ -11,6 +11,10 @@
       <span class.bind="done ? 'step__text--done show' : 'step__text--done'">
         ${stepTextDone}
       </span>
+      <div class="step__img-wrapper">
+        <img src.bind="stepImg" data-inactive.bind="done" alt="" class="step__img" />
+        <img src.bind="stepImgDone" data-inactive.bind="!done" alt="" class="step__img done" />
+      </div>
     <div>
   <div>
 </template>

@@ -1,0 +1,30 @@
+[
+  {
+    "number":1,
+    "text":"Mince onions and garlic and put them into a small bowl. Put them aside for now.",
+    "textDone":"Onions and garlic minced into small piecesl",
+    "img": "https://res.cloudinary.com/hksqkdlah/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,q_auto,w_auto/29523_stp-better-way-to-chop-onion-42",
+    "imgDone": "https://www.thecookierookie.com/wp-content/uploads/2012/11/Becky-perfect-onions-6-500x500.jpg"
+  },
+  {
+    "number":2,
+    "text":"Wash soja granules and squeeze the water out. Use a sieve and kitchen paper.",
+    "textDone":"Dry soja granules.",
+    "img": "https://www.chowhound.com/blog-media/2014/04/headerrinsing-rice-amywifetosuburbanlife.jpg",
+    "imgDone": "https://www.tarladalal.com/members/9306/procstepimgs/soya-bhurji-(4)-4-187583.jpg"
+  },
+  {
+    "number":3,
+    "text":"Heat olive oil in the pan and braise onions in sugar and add garlic to it for another minute.",
+    "textDone":"Brownish onions, garlic not burned.",
+    "img": "https://www.wikihow.com/images/thumb/8/8d/Make-Garlic-Oil-Step-1-Version-3.jpg/v4-460px-Make-Garlic-Oil-Step-1-Version-3.jpg.webp",
+    "imgDone": "https://foodal.com/wp-content/uploads/2017/11/Sauteed-Vegetables-with-Onion-and-Garlic.jpg"
+  },
+  {
+    "number":4,
+    "text":"Deglaze the pan content with dry red wine.",
+    "textDone":"Evaporated red wine and glazed onions with garlic",
+    "img": "https://www.thespruceeats.com/thmb/kdEgq_A5xM3C15WiuYANkXngudc=/2493x2493/smart/filters:no_upscale()/deglaze-2500-56a210043df78cf7727189fe.jpg",
+    "imgDone": "http://simpleveganblog.com/wp-content/uploads/2019/02/Vegan-bolognese-sauce.jpg"
+  }
+]
